@@ -1,0 +1,73 @@
+body{
+    background: black;
+    margin: 0px;
+    background-color: rgb(0, 29, 83);
+    color: aliceblue;
+    font-family: "Itim", cursive;
+}
+header{
+    color: rgb(206, 187, 83);
+    border: solid 2px white;
+    font-size: 30px;
+    background-color: rgb(0, 10, 43);
+    font-family: "Anton", sans-serif;
+}
+h1{
+    color: darkgoldenrod;
+    font-size: 60px;
+    font-family: "Anton", sans-serif;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    width: 1000px;
+    height: 500px;
+}
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+  a{
+    font-size: 30px;
+    color: aliceblue;
+    font-family: "Anton", sans-serif;
+
+  }
+  ul{
+    text-align: right;
+
+  }
+
+  img{
+    height: 200px;
+  }
+
+  .mais-videos {
+    display: flex;
+    overflow-x: auto;
+  }
+h2{
+  color: goldenrod;
+  font-family: "Anton", sans-serif;
+}
+
+.mais-videos img {
+  opacity: 0.5;
+
+}
+
+.mais-videos img:hover{
+  opacity: 1.0;
+  border: 1px solid green;
+}
